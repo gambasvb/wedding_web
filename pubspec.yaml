@@ -1,0 +1,31 @@
+name: wedding_web
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  intl: ^0.19.0
+  flutter_map: ^4.0.0  # Pastikan menggunakan versi terbaru
+  latlong2: ^0.8.1  
+  font_awesome_flutter: ^10.2.1
+  carousel_slider: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/wedding_hero.webp
+    - assets/images/gallery1.png
+    - assets/images/gallery2.png
+    - assets/images/gallery3.png
